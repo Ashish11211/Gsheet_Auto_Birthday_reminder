@@ -1,0 +1,39 @@
+function getTodayBirthdays(data) {
+  const today = new Date();
+  const todayDay = today.getDate();
+  const todayMonth = today.getMonth() + 1;
+
+  const NAME_COL = 8;
+  const DIV_COL = 9;
+  const DEPT_COL = 10;
+  const BDAY_COL = 12;
+  const EMAIL_COL = 13;
+
+  let birthdayList = [];
+
+  for (let i = 1; i < data.length; i++) {
+    let row = data[i];
+
+    let name = row[NAME_COL];
+    let division = row[DIV_COL];
+    let department = row[DEPT_COL];
+    let birthday = row[BDAY_COL];
+    let email = row[EMAIL_COL];
+
+    if (!birthday) continue;
+
+    let date = new Date(birthday);
+    if (isNaN(date)) continue;
+
+    if (date.getDate() === todayDay && date.getMonth() + 1 === todayMonth) {
+      birthdayList.push({
+        name,
+        division,
+        department,
+        email
+      });
+    }
+  }
+
+  return birthdayList;
+}

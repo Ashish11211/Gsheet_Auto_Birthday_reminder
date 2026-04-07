@@ -1,0 +1,17 @@
+function runBirthdayAutomation() {
+  try {
+    const data = getSheetData("BIRTHDAY");
+    const todayList = getTodayBirthdays(data);
+
+    if (todayList.length > 0) {
+      sendBirthdayReminder(todayList);
+      Logger.log("✅ Emails sent successfully");
+    } else {
+      Logger.log("ℹ️ No birthdays today");
+    }
+
+  } catch (error) {
+    Logger.log("❌ Error: " + error.message);
+    notifyError(error);
+  }
+}
