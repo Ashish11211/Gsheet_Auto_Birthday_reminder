@@ -21,8 +21,8 @@ Automated Birthday Reminder system using Google Apps Script integrated with Goog
 3. Sends reminder & birthday message automatically
 
 ## 📷 Screenshot
-(<img width="477" height="309" alt="image" src="https://github.com/user-attachments/assets/099baa36-edb6-469f-9bdf-b609e627487d" />
-)
+<img width="477" height="309" alt="image" src="https://github.com/user-attachments/assets/099baa36-edb6-469f-9bdf-b609e627487d" />
+
 
 ## 👨‍💻 Author
 Ashish ranjan
