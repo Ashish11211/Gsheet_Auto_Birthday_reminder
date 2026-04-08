@@ -28,5 +28,13 @@ Automated Birthday Reminder system using Google Apps Script integrated with Goog
 ## ⚠️ Note
 This project uses **dummy/modified data** for portfolio purposes. No confidential company data is shared.
 
-## 👨‍💻 Author
-Ashish ranjan
+---
+
+## 📫 Contact
+- Name: Ashish Ranjan 
+- 📧 Email: ashishranjan11211@gmail.com  
+- 🔗 LinkedIn: linkedin.com/in/ashishranjanji09
+
+---
+
+⭐ If you like this project, give it a star!
